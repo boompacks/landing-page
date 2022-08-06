@@ -1,0 +1,1 @@
+Landing page exercises from the Odin Project course.
