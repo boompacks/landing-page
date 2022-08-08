@@ -1,18 +1,88 @@
+/* Universal CSS*/
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Hero, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding:8px 16px;
+}
+
+.footer, .header, .front-page{
+    background-color: #1F2937;
+    color: white;
+}
+
+/* Header CSS*/
 .header{
     display: flex;
     justify-content: space-between;
+    margin:0;
+    padding: 16px;
 }
 
-.ul{
-    list-style-type: none;
+.header ul{
+    list-style: none;
 }
 
 .right-links{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:24px;
 }
 
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
 
 .secondary-text{
     font-size: 18px;
-    font-family: Hero, Verdana, sans-serif;
+    color: #E5E7EB;
+}
+
+/* Content CSS*/
+.content{
+    flex: 1;
+}
+
+.front-page{
+    display: flex;
+    padding: 16px;
+}
+
+.front-page-text{
+    padding: 10px;
+    flex:1;
+}
+
+.placeholder{
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 600px;
+    height: 250px;
+}
+
+/* Footer CSS */
+
+.footer{
+    display: flex;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
 }
