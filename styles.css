@@ -96,7 +96,7 @@ button{
 .images{
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 32px;
 }
 
 .squares{
@@ -109,7 +109,7 @@ button{
 .subtexts{
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 32px;
 }
 
 .subtext{
@@ -142,6 +142,21 @@ button{
 }
 
 /* Form CSS */
+.form{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #3882F6;
+    padding: 32px;
+    margin: 40px 128px;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-button{
+    border: 1px solid white;
+    
+}
 
 /* Footer CSS */
 
