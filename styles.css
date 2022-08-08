@@ -3,12 +3,20 @@ body{
     display: flex;
     flex-direction: column;
     font-family: Hero, Verdana, sans-serif;
+    margin:0;
 }
 
 h1{
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 button{
@@ -29,7 +37,7 @@ button{
     display: flex;
     justify-content: space-between;
     margin:0;
-    padding: 16px;
+    padding: 32px;
 }
 
 .header ul{
@@ -60,12 +68,12 @@ button{
 
 .front-page{
     display: flex;
-    padding: 16px;
+    padding: 32px;
 }
 
 .front-page-text{
-    padding: 10px;
     flex:1;
+    padding: 32px;
 }
 
 .placeholder{
@@ -74,8 +82,36 @@ button{
     justify-content: center;
     align-items: center;
     color: white;
-    width: 600px;
+    width: 500px;
     height: 250px;
+    padding: 32px;
+    border-radius: 8px;
+}
+
+/* Information CSS */
+
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.squares{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    background-color:#3882F6;
+}
+
+.subtexts{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.subtext{
+    width:200px;
+    flex-wrap: wrap;
 }
 
 /* Footer CSS */
